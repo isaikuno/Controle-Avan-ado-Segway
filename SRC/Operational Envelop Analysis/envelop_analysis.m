@@ -13,7 +13,7 @@ d1 = 1e-2;                           % damping of the cart displacement
 d2 = 1e-2;                           % damping of the joint
 
 K_lqr = [-7.0711 83.7210 -9.6684 24.8294];
-
+%%
 %initial_angle_conditions = -90:10:90;
 %initial_angle_conditions = -200:10:-70;
 initial_angle_conditions = -180:10:180;
